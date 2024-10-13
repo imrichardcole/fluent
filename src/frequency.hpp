@@ -1,12 +1,6 @@
 #pragma once
 
-namespace fluent
-{
-	enum Frequency
-	{
-		ANNUAL,
-		SEMIANNUAL,
-		QUARTERLY
-	};
+namespace fluent {
+enum Frequency { ANNUAL, SEMIANNUAL, QUARTERLY };
 
 }

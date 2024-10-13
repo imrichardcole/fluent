@@ -1,12 +1,10 @@
 #include "cashflow.h"
 
-namespace fluent
-{
+namespace fluent {
 
-	Cashflow::Cashflow(double amount, fluent::Date date)
-	{
-		_amount = amount;
-		_date = date;
-	}
-
+Cashflow::Cashflow(double amount, fluent::Date date) {
+  _amount = amount;
+  _date = date;
 }
+
+}  // namespace fluent

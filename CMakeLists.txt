@@ -36,7 +36,7 @@ if(WIN32)
     target_compile_options(fluent PRIVATE /W4 /WX)
     set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT fluent)
 else()
-    set(GTest_DIR "/opt/disk1/work/oss/googletest/install/lib64/cmake/GTest")
+    set(GTest_DIR "/Users/richard/work/oss/install/googletest/lib/cmake/GTest")
 endif()
 
 find_package(GTest
