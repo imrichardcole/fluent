@@ -13,5 +13,8 @@ jobs:
         steps:
             - name: checkout
               uses: actions/checkout@v2
+            - uses: Bacondish2023/setup-googletest@v1
+              with:
+                tag: v1.15.2
             - name: configure
               uses: threeal/cmake-action@v2.0.0
